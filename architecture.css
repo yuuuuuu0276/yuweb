@@ -221,6 +221,21 @@ left: 400px; */
 /* height: 400%; */
 /* } */
 
+#long {
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+#ho {
+  display: block;
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
 
 a:visited {
   text-decoration: none;
