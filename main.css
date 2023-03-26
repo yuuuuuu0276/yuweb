@@ -4,6 +4,8 @@
     "syntax-highlighting",
     "bootstrap";
 
+@import "{{ site.theme }}";
+
 
 * {
   font-family: Arial, Helvetica, sans-serif;
