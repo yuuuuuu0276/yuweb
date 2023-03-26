@@ -136,7 +136,7 @@ left: 400px; */
   /* width: auto; */
   /* height: 70%; */
   margin-bottom: 5%;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 
@@ -157,6 +157,46 @@ left: 400px; */
   margin-bottom: 20%;
   margin-top: 5%;
 }
+
+
+#m1 {
+  display: block;
+  /* margin-left: 15%; */
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 3%;
+  margin-top: 10%;
+}
+
+#m2 {
+  display: block;
+  margin-left: auto;
+  /* margin-right: auto; */
+  width: 70%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+#m3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 70%;
+  /* margin-bottom: 5%; */
+  margin-top: 3%;
+}
+
+#m4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
 
 #p1 {
   display: block;
