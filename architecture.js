@@ -17,13 +17,13 @@ titlePhoto.width = ww + "";
 // inter.marginBottom = wh / 4 + "";
 
 
-function titlephoto_size(window) {
-  var titlePhoto = document.getElementById("titlephoto");
-  var wh = window.innerHeight;
-  var ww = window.innerWidth;
-  titlePhoto.height = wh + "";
-  titlePhoto.width = ww + "";
-}
+// function titlephoto_size(window) {
+//   // var titlePhoto1 = document.getElementById("titlephoto");
+//   var wh = window.innerHeight;
+//   var ww = window.innerWidth;
+//   titlePhoto.height = wh + "";
+//   titlePhoto.width = ww + "";
+// }
 
 function inTop(x, y) {
   return (y < 80)

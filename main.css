@@ -80,6 +80,31 @@ header {
   display: inline-block;
 }
 
+@media screen and (max-width: 800px) {
+
+  .contentUnit {
+    /* position: absolute; */
+    /* display: none; */
+    width: 100%;
+    /* margin-left: 3%; */
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  #architecture {
+    /* position: absolute; */
+    /* display: none; */
+
+    /* padding-left: auto;
+    padding-right: auto; */
+  }
+}
+
+
+
 .desText {
   color: white;
   font-size: 15px;

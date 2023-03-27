@@ -110,7 +110,6 @@
 }
 
 
-
 body {
   padding: 0;
   margin: 0;
@@ -152,6 +151,8 @@ left: 400px; */
 }
 
 
+
+
 #headerText {
   margin: 5px;
   font-weight: bolder;
@@ -171,6 +172,23 @@ left: 400px; */
   background-color: rgba(255, 255, 255, 0.475);
   /* filter:blur(5px); */
   backdrop-filter: blur(5px);
+}
+
+
+#des1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #717171;
+  font-size: medium;
+  padding-top: 3%;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* #backwardOverlay {
@@ -305,7 +323,7 @@ left: 400px; */
 }
 
 
-#p1 {
+.p1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -314,7 +332,7 @@ left: 400px; */
   margin-top: 10%;
 }
 
-#p2 {
+.p2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -347,4 +365,53 @@ left: 400px; */
 a:visited {
   text-decoration: none;
   color: black
+}
+
+
+/* ------------------------------------------------------------------------*/
+@media screen and (max-width: 800px) {
+
+  #titlephoto {
+    width: 100%;
+    height: 100%;
+    /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .p1,
+  .p2,
+  .interiorfirst,
+  .interiorlast,
+  .interiormid,
+  .slideshow-container {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  #siteplan,
+  #sitedrawing {
+    /* position: absolute; */
+    display: none;
+    width: 60%;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+
+  #text1 {
+    position: relative;
+    display: block;
+    width: 80%;
+    padding-top: 10%;
+    left: 10%;
+    right: 10%;
+  }
 }
