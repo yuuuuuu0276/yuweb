@@ -2,15 +2,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 800px) {
-  #titlephoto {
-    width: 100%;
-    /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
-
-
-
 body {
   padding: 0;
   margin: 0;
@@ -358,5 +349,16 @@ a:visited {
     font-size: 35px;
     padding-bottom: 8px;
     padding-left: 8px;
+  }
+}
+
+
+@media screen and (max-width: 1300px) {
+
+  .dot {
+    height: 14px;
+    width: 14px;
+    margin: 0 4px;
+
   }
 }
