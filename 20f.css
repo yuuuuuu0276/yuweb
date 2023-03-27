@@ -300,7 +300,7 @@ a:visited {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
 
   #titlephoto {
     width: 100%;
@@ -309,7 +309,7 @@ a:visited {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
 
   .p1,
   .p2,
@@ -324,13 +324,13 @@ a:visited {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
   #forwardOverlay {
     display: none;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
 
   #siteplan,
   #sitedrawing {
@@ -340,7 +340,7 @@ a:visited {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
 
   #text1 {
     position: relative;
